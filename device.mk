@@ -25,15 +25,6 @@ $(call inherit-product, vendor/realme/RMX2185/RMX2185-vendor.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Parts
-PRODUCT_PACKAGES += \
-    parts.rc \
-    RealmeParts
-
-# Realme Dirac
-PRODUCT_PACKAGES += \
-    RealmeDirac
-
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # VNDK
@@ -79,11 +70,6 @@ PRODUCT_PACKAGES += \
     libhidltransport \
     libhwbinder
 
-# IMS
-PRODUCT_PACKAGES += \
-    mtk-ims \
-    mtk-ims-telephony
-
 # ImsInit hack
 PRODUCT_PACKAGES += \
     ImsInit
@@ -93,8 +79,6 @@ PRODUCT_PACKAGES += \
     init.mt6765.rc \
     init.safailnet.rc \
     fstab.mt6765 \
-    perf_profile.sh \
-    set_zram.sh
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
@@ -155,6 +139,4 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    TetheringConfigOverlay \
-    wpa_supplicant.conf \
-    WifiOverlay
+    wpa_supplicant.conf
