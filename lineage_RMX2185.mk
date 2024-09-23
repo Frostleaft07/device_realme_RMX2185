@@ -23,6 +23,12 @@ $(call inherit-product, device/realme/RMX2185/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full.mk)
+$(call inherit-product, vendor/lineage/config/BoardConfigSoong.mk)
+$(call inherit-product, vendor/lineage/config/BoardConfigLineage.mk)
+$(call inherit-product, device/lineage/sepolicy/common/sepolicy.mk)
+-include vendor/lineage/build/core/config.mk
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_RMX2185
@@ -37,3 +43,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-google
 
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
+
+$(call inherit-product, vendor/extra/product.mk)
