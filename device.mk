@@ -133,8 +133,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Symbols
-PRODUCT_PACKAGES += \
-    libshim_showlogo
+# PRODUCT_PACKAGES += \
+#    libshim_showlogo
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
