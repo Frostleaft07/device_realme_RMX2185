@@ -28,7 +28,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := Realme G35 Series
+PRODUCT_MODEL := Nightmare
 PRODUCT_MANUFACTURER := realme
 
 TARGET_BOOT_ANIMATION_RES := 720
