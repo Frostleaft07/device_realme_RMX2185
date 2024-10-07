@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 29
+# PRODUCT_EXTRA_VNDK_VERSIONS := 29
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
