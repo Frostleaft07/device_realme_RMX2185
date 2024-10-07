@@ -103,14 +103,6 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
-PRODUCT_PACKAGES += \
-    NotchBarKiller
-
-PRODUCT_PACKAGES += \
-    RMX2180_overlay \
-    RMX2185_overlay \
-    RMX2189_overlay
-
 # Permissions
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml
