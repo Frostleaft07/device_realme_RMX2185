@@ -7,7 +7,8 @@
 ### See public/untrusted_app.te for more information about which apps are
 ### placed in this selinux domain.
 ###
-
+type untrusted_app_29, domain;
+permissive untrusted_app_29;
 typeattribute untrusted_app_29 coredomain;
 
 app_domain(untrusted_app_29)
