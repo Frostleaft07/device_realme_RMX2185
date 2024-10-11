@@ -105,9 +105,6 @@ on property:sys.boot_completed=1
     exec - root -- /system/bin/sh -c "settings put global airplane_mode_on 0"
     exec - root -- /system/bin/sh -c "am broadcast -a android.intent.action.AIRPLANE_MODE --ez state false"
     
-    # ZRAM
-    swapon_all /vendor/fstab.enableswap
-
     # Runtime fs tuning for runtime performance
     write /sys/block/sda/queue/read_ahead_kb 512
     write /sys/block/sda/queue/nr_requests 128
@@ -132,13 +129,6 @@ service face_hal /system/bin/true
     oneshot
     disabled
 
-service set_zram /vendor/bin/sh /system/etc/init/set_zram.sh
-    class late_start
-    disabled
-    user root
-    group system
-    oneshot
-
 # Disable AOSP RIL if MTK RIL is up
 on property:vendor.ril.mtk=1
     stop vendor.ril-daemon
@@ -154,4 +144,3 @@ on property:sys.boot_completed=1
     chown root root /sys/module/ged/parameters/gx_force_cpu_boost
     chown root root /proc/cpufreq/cpufreq_power_mode
     chown root root /proc/cpufreq/cpufreq_cci_mode
-    start set_zram
