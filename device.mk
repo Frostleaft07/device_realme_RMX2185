@@ -131,3 +131,10 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 # Wi-Fi
 PRODUCT_PACKAGES += \
     wpa_supplicant.conf
+
+# Personal
+PRODUCT_PACKAGES += \
+    Nightmare \
+    TetheringConfigOverlay \
+    mtk-ims-telephony \
+    mtk-ims
