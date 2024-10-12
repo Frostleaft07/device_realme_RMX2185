@@ -38,12 +38,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
 
-# ZRAM
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.zram.mark_idle_delay_mins=60 \
-    ro.zram.first_wb_delay_mins=180 \
-    ro.zram.periodic_wb_delay_hours=24
-
 # GBoard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.kb_pad_port_b=1 \
