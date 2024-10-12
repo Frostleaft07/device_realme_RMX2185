@@ -137,4 +137,18 @@ PRODUCT_PACKAGES += \
     Nightmare \
     TetheringConfigOverlay \
     mtk-ims-telephony \
-    mtk-ims
+    mtk-ims \
+    Op1 \
+    Op2 \
+    Op3 \
+    Op4 \
+    OpWidget \
+    OPIconpackCircle \
+    OPIconpackDefault \
+    OPIconpackHydrogen \
+    OPIconpackMCLaren \
+    OPIconpackOnePlus \
+    OPIconpackOxygen \
+    OPIconpackSquare \
+    OPLauncherReleases \
+    OnePlusRecentsProvider
