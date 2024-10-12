@@ -151,4 +151,5 @@ PRODUCT_PACKAGES += \
     OPIconpackOxygen \
     OPIconpackSquare \
     OPLauncherReleases \
-    OnePlusRecentsProvider
+    OnePlusRecentsProvider \
+    Qlogo
