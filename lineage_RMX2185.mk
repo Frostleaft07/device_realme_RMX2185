@@ -45,3 +45,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-google
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 
 $(call inherit-product, vendor/extra/product.mk)
+
+BUILD_FINGERPRINT := "google/walleye/walleye:10/QQ3A.200805.001/6578210:user/release-keys"
