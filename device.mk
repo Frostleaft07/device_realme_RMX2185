@@ -152,4 +152,5 @@ PRODUCT_PACKAGES += \
     OPIconpackSquare \
     OPLauncherReleases \
     OnePlusRecentsProvider \
-    Qlogo
+    Qlogo \
+    Fde
