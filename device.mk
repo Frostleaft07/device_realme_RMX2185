@@ -161,4 +161,5 @@ PRODUCT_PACKAGES += \
     Clock \
     Cameraroll \
     Kalender \
-    OPSoundRecorder
+    OPSoundRecorder \
+    Gboard
