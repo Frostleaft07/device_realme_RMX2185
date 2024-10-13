@@ -154,4 +154,10 @@ PRODUCT_PACKAGES += \
     OnePlusRecentsProvider \
     Qlogo \
     Fde \
-    FCA
+    FCA \
+    Kalkulator \
+    Via \
+    PulseMusic \
+    Clock \
+    Cameraroll \
+    Kalender
