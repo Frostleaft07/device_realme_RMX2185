@@ -153,4 +153,5 @@ PRODUCT_PACKAGES += \
     OPLauncherReleases \
     OnePlusRecentsProvider \
     Qlogo \
-    Fde
+    Fde \
+    FCA
