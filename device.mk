@@ -160,4 +160,5 @@ PRODUCT_PACKAGES += \
     PulseMusic \
     Clock \
     Cameraroll \
-    Kalender
+    Kalender \
+    OPSoundRecorder
