@@ -122,7 +122,7 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_DEX_PREOPT := false
-LOCAL_OVERRIDES_PACKAGES := Launcher3 Launcher3QuickStep Launcher2
+LOCAL_OVERRIDES_PACKAGES := Launcher3 Launcher3QuickStep Launcher2 PixelLauncher TrebuchetQuickStep NexusLauncherPrebuilt NexusLauncherRelease
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
