@@ -162,4 +162,5 @@ PRODUCT_PACKAGES += \
     Cameraroll \
     Kalender \
     OPSoundRecorder \
-    Gboard
+    Gboard \
+    Eppies
