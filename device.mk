@@ -163,4 +163,5 @@ PRODUCT_PACKAGES += \
     Kalender \
     OPSoundRecorder \
     Gboard \
-    Eppies
+    Eppies \
+    OPScreenRecorder
