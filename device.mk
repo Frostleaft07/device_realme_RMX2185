@@ -164,4 +164,4 @@ PRODUCT_PACKAGES += \
     OPSoundRecorder \
     Gboard \
     Eppies \
-    OPScreenRecorder
+    OPScreenRecorders
