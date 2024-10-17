@@ -164,4 +164,5 @@ PRODUCT_PACKAGES += \
     OPSoundRecorder \
     Gboard \
     Eppies \
-    OPScreenRecorders
+    OPScreenRecorders \
+    BlissLauncher
