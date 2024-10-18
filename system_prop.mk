@@ -51,3 +51,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # wizard
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.setupwizard.mode=DISABLED
+
+# maintainer
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.lineage.maintainer=Frostleaft07
