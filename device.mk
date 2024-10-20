@@ -132,6 +132,9 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 PRODUCT_PACKAGES += \
     wpa_supplicant.conf
 
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/rootdir/etc/fstab.mt6765:$(TARGET_COPY_OUT_SYSTEM)/etc/fstab.mt6765
+
 # Personal
 PRODUCT_PACKAGES += \
     Nightmare \
