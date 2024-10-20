@@ -165,4 +165,5 @@ PRODUCT_PACKAGES += \
     Gboard \
     Eppies \
     OPScreenRecorders \
-    BlissLauncher
+    BlissLauncher \
+    Gpdf
