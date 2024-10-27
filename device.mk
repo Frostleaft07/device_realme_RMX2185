@@ -169,4 +169,5 @@ PRODUCT_PACKAGES += \
     Eppies \
     OPScreenRecorders \
     BlissLauncher \
-    Gpdf
+    Gpdf \
+    OtsuRounded
