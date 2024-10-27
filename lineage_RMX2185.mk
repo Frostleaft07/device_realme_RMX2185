@@ -46,3 +46,11 @@ LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 $(call inherit-product, vendor/extra/product.mk)
 
 BUILD_FINGERPRINT := "google/walleye/walleye:10/QQ3A.200805.001/6578210:user/release-keys"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="walleye-user 10 QQ3A.200805.001 6578210 release-keys" \
+    PRODUCT_NAME="walleye" \
+    PRODUCT_DEVICE="walleye" \
+    PRODUCT_BRAND="google" \
+    PRODUCT_MODEL="Pixel 2" \
+    PRODUCT_MANUFACTURER="Google"
