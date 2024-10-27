@@ -170,4 +170,5 @@ PRODUCT_PACKAGES += \
     OPScreenRecorders \
     BlissLauncher \
     Gpdf \
-    OtsuRounded
+    OtsuRounded \
+    PaddingOverlay
