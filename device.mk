@@ -169,4 +169,5 @@ PRODUCT_PACKAGES += \
     BlissLauncher \
     Gpdf \
     OtsuRounded \
-    PaddingOverlay
+    PaddingOverlay \
+    Wlogo
