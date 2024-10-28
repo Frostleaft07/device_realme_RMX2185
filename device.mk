@@ -155,7 +155,6 @@ PRODUCT_PACKAGES += \
     OPIconpackSquare \
     OPLauncherReleases \
     OnePlusRecentsProvider \
-    Fde \
     FCA \
     Kalkulator \
     Via \
