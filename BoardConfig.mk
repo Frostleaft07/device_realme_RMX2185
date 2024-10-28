@@ -28,9 +28,9 @@ BOARD_USES_MTK_HARDWARE := true
 BOARD_HAS_MTK_HARDWARE := true
 
 # GAPPS
-WITH_GMS := false
-WITH_GAPPS := false
-USE_GAPPS := false
+WITH_GMS := true
+WITH_GAPPS := true
+USE_GAPPS := true
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
