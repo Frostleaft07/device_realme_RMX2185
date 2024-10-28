@@ -155,7 +155,6 @@ PRODUCT_PACKAGES += \
     OPIconpackSquare \
     OPLauncherReleases \
     OnePlusRecentsProvider \
-    Qlogo \
     Fde \
     FCA \
     Kalkulator \
@@ -166,7 +165,6 @@ PRODUCT_PACKAGES += \
     Kalender \
     OPSoundRecorder \
     Gboard \
-    Eppies \
     OPScreenRecorders \
     BlissLauncher \
     Gpdf \
