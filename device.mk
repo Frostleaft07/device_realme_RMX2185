@@ -156,7 +156,6 @@ PRODUCT_PACKAGES += \
     OPLauncherReleases \
     OnePlusRecentsProvider \
     Qlogo \
-    Fde \
     FCA \
     Kalkulator \
     Via \
