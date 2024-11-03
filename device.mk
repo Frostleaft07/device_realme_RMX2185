@@ -171,4 +171,5 @@ PRODUCT_PACKAGES += \
     Gpdf \
     OtsuRounded \
     PaddingOverlay \
-    Wlogo
+    Wlogo \
+    Lspeed
