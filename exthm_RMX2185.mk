@@ -22,10 +22,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/RMX2185/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
+$(call inherit-product, vendor/exthm/config/common.mk)
+$(call inherit-product, vendor/exthm/config/common_full.mk)
+$(call inherit-product, vendor/exthm/config/BoardConfigSoong.mk)
+$(call inherit-product, vendor/exthm/config/BoardConfigLineage.mk)
+-include vendor/exthm/build/core/config.mk
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_RMX2185
+PRODUCT_NAME := exthm_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Nightmare
@@ -37,3 +42,15 @@ PRODUCT_GMS_CLIENTID_BASE := android-google
 
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
+
+$(call inherit-product, vendor/extra/product.mk)
+
+BUILD_FINGERPRINT := "google/walleye/walleye:10/QQ3A.200805.001/6578210:user/release-keys"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="walleye-user 10 QQ3A.200805.001 6578210 release-keys" \
+    PRODUCT_NAME="walleye" \
+    PRODUCT_DEVICE="walleye" \
+    PRODUCT_BRAND="google" \
+    PRODUCT_MODEL="Pixel 2" \
+    PRODUCT_MANUFACTURER="Google"
