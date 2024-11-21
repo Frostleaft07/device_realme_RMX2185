@@ -22,15 +22,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/RMX2185/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-$(call inherit-product, vendor/lineage/config/common.mk)
-$(call inherit-product, vendor/lineage/config/common_full.mk)
-$(call inherit-product, vendor/lineage/config/BoardConfigSoong.mk)
-$(call inherit-product, vendor/lineage/config/BoardConfigLineage.mk)
--include vendor/lineage/build/core/config.mk
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
+$(call inherit-product, vendor/exthm/config/common.mk)
+$(call inherit-product, vendor/exthm/config/common_full.mk)
+$(call inherit-product, vendor/exthm/config/BoardConfigSoong.mk)
+$(call inherit-product, vendor/exthm/config/BoardConfigLineage.mk)
+-include vendor/exthm/build/core/config.mk
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_RMX2185
+PRODUCT_NAME := exthm_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Nightmare
