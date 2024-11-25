@@ -158,3 +158,7 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     wpa_supplicant.conf \
     WifiOverlay
+
+# fstab
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/rootdir/etc/fstab.mt6765:$(TARGET_COPY_OUT_SYSTEM)/etc/fstab.mt6765
