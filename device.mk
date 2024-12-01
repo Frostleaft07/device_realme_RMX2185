@@ -160,3 +160,20 @@ PRODUCT_PACKAGES += \
 # fstab
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/etc/fstab.mt6765:$(TARGET_COPY_OUT_SYSTEM)/etc/fstab.mt6765
+
+# OplusAPPS
+PRODUCT_PACKAGES += \
+    Op1 \
+    Op2 \
+    Op3 \
+    Op4 \
+    OpWidget \
+    OPIconpackCircle \
+    OPIconpackDefault \
+    OPIconpackHydrogen \
+    OPIconpackMCLaren \
+    OPIconpackOnePlus \
+    OPIconpackOxygen \
+    OPIconpackSquare \
+    OPLauncherReleases \
+    OnePlusRecentsProvider
