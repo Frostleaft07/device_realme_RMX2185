@@ -177,3 +177,16 @@ PRODUCT_PACKAGES += \
     OPIconpackSquare \
     OPLauncherReleases \
     OnePlusRecentsProvider
+
+# APPS
+PRODUCT_PACKAGES += \
+    Cameraroll \
+    Clock \
+    FCA \
+    Gboard \
+    Gpdf \
+    Kalender \
+    Kalkulator \
+    Lspeed \
+    PulseMusic \
+    Via
