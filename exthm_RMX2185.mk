@@ -49,8 +49,8 @@ BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/relea
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210705.001 7380771 release-keys" \
-    PRODUCT_NAME="walleye" \
-    PRODUCT_DEVICE="walleye" \
+    PRODUCT_NAME="redfin" \
+    PRODUCT_DEVICE="redfin" \
     PRODUCT_BRAND="google" \
-    PRODUCT_MODEL="Pixel 2" \
+    PRODUCT_MODEL="Pixel 5" \
     PRODUCT_MANUFACTURER="Google"
