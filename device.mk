@@ -190,3 +190,8 @@ PRODUCT_PACKAGES += \
     Lspeed \
     PulseMusic \
     Via
+    
+# AOD
+PRODUCT_PACKAGES += \
+    SAOD \
+    FAOD

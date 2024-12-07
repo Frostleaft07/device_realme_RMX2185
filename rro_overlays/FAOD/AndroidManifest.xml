@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.frostleaft07.sys.aod"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <application
+        android:extractNativeLibs="false"
+        android:usesNonSdkApi="true" />
+    <overlay
+        android:priority="1000"
+        android:targetPackage="android"
+        android:isStatic="true" />
+</manifest>
