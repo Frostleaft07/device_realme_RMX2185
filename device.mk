@@ -188,7 +188,6 @@ PRODUCT_PACKAGES += \
     Kalender \
     Kalkulator \
     Lspeed \
-    PulseMusic \
     Via
     
 # AOD
