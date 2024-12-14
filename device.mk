@@ -174,9 +174,7 @@ PRODUCT_PACKAGES += \
     OPIconpackMCLaren \
     OPIconpackOnePlus \
     OPIconpackOxygen \
-    OPIconpackSquare \
-    OPLauncherReleases \
-    OnePlusRecentsProvider
+    OPIconpackSquare
 
 # APPS
 PRODUCT_PACKAGES += \
@@ -189,7 +187,7 @@ PRODUCT_PACKAGES += \
     Kalkulator \
     Lspeed \
     Via
-    
+
 # AOD
 PRODUCT_PACKAGES += \
     SAOD \
