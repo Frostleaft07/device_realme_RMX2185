@@ -186,4 +186,5 @@ PRODUCT_PACKAGES += \
     Kalender \
     Kalkulator \
     Lspeed \
-    Via
+    Via \
+    Nightmare
