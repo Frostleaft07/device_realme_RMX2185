@@ -187,8 +187,3 @@ PRODUCT_PACKAGES += \
     Kalkulator \
     Lspeed \
     Via
-
-# AOD
-PRODUCT_PACKAGES += \
-    SAOD \
-    FAOD
