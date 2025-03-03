@@ -188,3 +188,51 @@ PRODUCT_PACKAGES += \
     Lspeed \
     Via \
     Nightmare
+
+# Live Wallpaper
+PRODUCT_PACKAGES += \
+    Op5 \
+    Op6 \
+    Op7 \
+    Op8 \
+    Op9 \
+    Op10 \
+    Op11 \
+    Op12 \
+    Op13 \
+    Op14 \
+    Op15 \
+    Op16 \
+    Op17 \
+    Op18 \
+    Op19 \
+    Op20 \
+    Op21 \
+    Op22 \
+    Op23 \
+    Op24 \
+    Op25 \
+    Op26 \
+    Op27 \
+    Op28 \
+    Op29 \
+    Op30 \
+    Op31 \
+    Op32 \
+    Op33 \
+    Op34 \
+    Op35 \
+    Op36 \
+    Op37 \
+    Op38 \
+    Op39 \
+    Flw1 \
+    Flw2 \
+    Llw1 \
+    Llw2 \
+    Llw3 \
+    Rlw1 \
+    Rlw2 \
+    Rlw3 \
+    Rlw4 \
+    Zlw
