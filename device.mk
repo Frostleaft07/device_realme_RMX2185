@@ -187,7 +187,10 @@ PRODUCT_PACKAGES += \
     Kalkulator \
     Lspeed \
     Via \
-    Nightmare
+    Nightmare \
+    Forest \
+    DocScanner \
+    BarCode
 
 # Live Wallpaper
 PRODUCT_PACKAGES += \
