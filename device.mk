@@ -238,4 +238,12 @@ PRODUCT_PACKAGES += \
     Rlw2 \
     Rlw3 \
     Rlw4 \
-    Zlw
+    Zlw \
+    Visualization \
+    PhaseBeam \
+    NoiseField \
+    Microbes \
+    MagicSmokeWallpapers \
+    KKLWP \
+    HoloSpiralWallpaper \
+    Galaxy4
